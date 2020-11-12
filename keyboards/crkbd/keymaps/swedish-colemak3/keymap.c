@@ -40,8 +40,6 @@ enum combos {
 	TD_ESC,
 	ENT_TAB,
 	HN_TAB,
-//	ENS_COLON,
-//	ENR_SCOLON,
         RSE_ENTER,
 	RSI_TAB,
 	EIO_ENTER,
@@ -62,8 +60,6 @@ const uint16_t PROGMEM td_combo[] =     {KC_T, KC_D, COMBO_END};
 const uint16_t PROGMEM acomma_combo[] = {KC_A, KC_COMMA, COMBO_END};
 const uint16_t PROGMEM arne_combo[] =   {KC_A, KC_R, KC_N, KC_E, COMBO_END};
 const uint16_t PROGMEM ent_combo[] =    {KC_E, KC_N, KC_T, COMBO_END};
-//const uint16_t PROGMEM ens_combo[] =    {KC_E, KC_N, KC_S, COMBO_END};
-//const uint16_t PROGMEM enr_combo[] =    {KC_E, KC_N, KC_R, COMBO_END};
 const uint16_t PROGMEM rse_combo[] =    {KC_R, KC_S, KC_E, COMBO_END};
 const uint16_t PROGMEM rsi_combo[] =    {KC_R, KC_S, KC_I, COMBO_END};
 const uint16_t PROGMEM eio_combo[] =    {KC_E, KC_I, KC_O, COMBO_END};
@@ -83,8 +79,6 @@ combo_t key_combos[COMBO_COUNT] = {
 	[TD_ESC]     = COMBO(td_combo,     KC_ESC),
 	[ENT_TAB]    = COMBO(ent_combo,    KC_TAB),
 	[HN_TAB]     = COMBO(hn_combo,     KC_TAB),
-//	[ENS_COLON]  = COMBO(ens_combo,    KC_COLON),
-//	[ENR_SCOLON] = COMBO(enr_combo,    KC_SCOLON),
 	[RSE_ENTER]  = COMBO(rse_combo,    KC_ENTER),
 	[RSI_TAB]    = COMBO(rsi_combo,    KC_TAB),
 	[EIO_ENTER]  = COMBO(eio_combo,    KC_ENTER),
